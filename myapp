@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerid')
-        IMAGE_NAME = "myapp"
+        IMAGE_NAME = "chethan2310/myapp"
     }
 
     stages {
